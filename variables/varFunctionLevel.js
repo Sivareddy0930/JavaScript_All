@@ -8,3 +8,14 @@ function add(){
 add();
 //console.log(i);//error
 //we cannot access outside function.
+//-------------------------------------------------------------
+
+// var i=20;
+// function add(){
+//     if(true){
+//         var i=10;
+//     }
+//     console.log(i);// accessing function level only.
+// }
+// add();
+// console.log(i);
