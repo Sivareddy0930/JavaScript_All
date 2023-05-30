@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="./events.js" type="text/javascript"></script>
+</head>
+<body>
+    <button id="mouseover" style="background-color: red;" onmouseover="mover()" >Login</button>
+    <p>On mouseover background-color will be change</p>
+    <button style="background-color: red;" id="mouseout" onmouseout="mout()">Login</button>
+    <p>On mouseout background color will be changed </p>
+    <button style="background-color: red;" id="click"  onclick="oclick()">Login</button>
+    <p>On click background colr will be changed</p>
+    <button style="background-color: red;" id="dbclick"  ondblclick="odbclick()">Login</button>
+    <p>On double click background colr will be changed</p>
+    <hr>
+    <label>Onfocus:</label>
+    <input type="text" id="focus" onfocus="ofocus()">
+    <p>while user click to write it will convert to focus mode</p>
+    <hr>
+    <label>OnBlur:</label>
+    <input type="text" id="blur" onblur="oblur()">
+    <p>while user click to write it will convert to focus mode and if we click on out side it become blur  </p>
+    <hr>
+    <label>Name:</label>
+    <input type="text" id="Name" onchange="upper()">
+    <p>it converts small to uppercase</p>
+
+
+</body>
+</html>
