@@ -1,16 +1,10 @@
-//var keyword
-// no block scope
-
-
-// if(true){
-//    var a=10;
-// }
-// console.log(a);
-
-
-for(var i=1;i<=4;i++){
-    var na="siva";
+// If a code block is inside a function, then var becomes a function-level variable.
+function add(){
+    if(true){
+        var i=10;
+    }
+    console.log(i);// accessing function level only.
 }
-console.log(i);//5
-console.log(na);//siva
-//we are accessing out side block
+add();
+//console.log(i);//error
+//we cannot access outside function.
