@@ -1,14 +1,6 @@
-var userName = 'John';
-
-function showMessage() {
-  userName = "Bob"; // (1) changed the outer variable
-
-  var message = 'Hello, ' + userName;
-  console.log(message);
+let a;
+function checkAge(age) {
+   a=(age > 18) ? true :('Did parents allow you?');
 }
-
-console.log(userName); // John before the function call
-
-showMessage();
-
-console.log(userName); // Bob, the value was modified by the function
+checkAge(20);
+console.log(a);
