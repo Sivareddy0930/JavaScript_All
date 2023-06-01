@@ -1,16 +1,16 @@
 <html>
-
-<head>
-</head>
-
-<body>
-    <button id="btnRef">Login</button>
-    <hr>
-    <button style="background-color: red;" id="cc">click</button>
-</body>
-<script>
-    document.getElementById('btnRef').innerHTML = "Go to Movie"
-    document.getElementById('cc').style.backgroundColor = "green"
-</script>
-
+  <head></head>
+  <body>
+    <input type="file" onchange="encodeImage(this)" />
+    <script>
+      function encodeImage(element) {
+        let file = element.files[0];
+        let reader = new FileReader();
+        reader.onloadend = function() {
+          document.write('RESULT: ', reader.result);
+        }
+        reader.readAsDataURL(file);
+      }
+    </script>
+  </body>
 </html>

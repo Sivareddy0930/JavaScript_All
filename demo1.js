@@ -1,6 +1,22 @@
-let a;
-function checkAge(age) {
-   a=(age > 18) ? true :('Did parents allow you?');
-}
-checkAge(20);
-console.log(a);
+let imageFile =Event.target.files[0];
+let reader = new FileReader();
+reader.readAsDataURL(imageFile);
+reader.addEventListener('load', () => {
+    if (reader.result) {
+        // Convert data URL to base64 string
+        const imageData = reader.result.split(',')[1];
+
+        // Modify the code as needed
+        // For example, if you want to add a prefix to the base64 string
+        const modifiedImageData = 'prefix_' + imageData;
+
+        setProduct({
+            ...product,
+            image: modifiedImageData
+        });
+    } else {
+        alert('Error occurred');
+    }
+});
+
+      
