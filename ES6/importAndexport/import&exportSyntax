@@ -1,0 +1,34 @@
+/*import and export can done in two ways
+1)default =>In default we can export and import only one value.
+2)named =>In named we can export and import multipule values.
+
+*******
+In node environment it can understand only ES5.
+So in node only ES5 syntax is worked. */
+
+//Syntax for ES6
+            //Export syntax for default:-
+                                //export default value1;
+
+            //Export syntax for named:-
+                                //export {value1,value2}
+             //import syntax for default:-
+                                //import value1 from './filename'
+
+            //import syntax for named:-
+                                //import {value1,value2} from './filename'
+
+
+  
+//Syntax for ES5
+            //Export syntax for default:-
+                                //module.exports=value1;
+
+            //Export syntax for named:-
+                                //module.export={value1,value2};
+            //import syntax for default:-
+                                //const value1=require('./filename')
+
+            //import syntax for named:-
+                                //const {value1,value2}=require('./filename')           
+
