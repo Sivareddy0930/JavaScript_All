@@ -3,7 +3,7 @@
 2)named =>In named we can export and import multipule values.
 
 *******
-In node environment it can understand only ES5.
+node:- node environment it can understand only ES5.
 So in node only ES5 syntax is worked. */
 
 //Syntax for ES6
@@ -25,7 +25,7 @@ So in node only ES5 syntax is worked. */
                                 //module.exports=value1;
 
             //Export syntax for named:-
-                                //module.export={value1,value2};
+                                //module.exports={value1,value2};
             //import syntax for default:-
                                 //const value1=require('./filename')
 
