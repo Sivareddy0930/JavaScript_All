@@ -4,9 +4,19 @@
   
 //Note that the join() method converts undefined, null, and empty array [] to an empty string.
 
-// it also join nestead arrays.
 
 
 let arr=["Mango","Apple"," Orange","Banana"]
-let result=arr.join();
+let result=arr.join(' ');
 console.log(result);//Mango,Apple, Orange,Banana
+
+
+
+
+// it also join nestead arrays.
+
+
+// const cssClasses = ['btn',['btn-primary', 'btn-active']];
+// const btnClass = cssClasses.join(' ');
+
+// console.log(btnClass);//btn btn-primary,btn-active

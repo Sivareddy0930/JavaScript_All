@@ -2,7 +2,7 @@
 //let newArray = arrayObject.flat([depth])
 //The depth parameter specifies how many nested arrays are there. It defaults to 1.
 //When you don’t know the depth level, you can pass the Infinity into the flat() method to  concatenate all elements of the sub-arrays into the new array.
-// flat method removes empty places. like [1,2,3,4,,6,]=>[1,2,3,4,6]
-let arr=[1,2,3,4,[5,6],[7,8]];// 1 nested array.
-let result=arr.flat()// default  depth is 1.
-console.log(result);
+
+let arr=[1,2,3,4,[5,6,[7,8,]]];// nested array with depth 2.
+let result=arr.flat(2)// by mention depth 2 or infinity . we will get one new array.
+console.log(result);//output:-[ 1, 2, 3, 4, 5, 6, 7, 8]
