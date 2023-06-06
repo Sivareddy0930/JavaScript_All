@@ -26,7 +26,7 @@ console.log(newoffers);*/
           //first arugment represent current element in array.
           //second arugment represent  the index of the currentElement.
 
-//The map() method will call the circleArea function on each element of the circles array and return a new array with the elements that have been transformed.
+//It returns a new array with the same length as the original, where each element is the result of the callback function applied to the corresponding element in the original array.
 
 let offers=[99,199,299,399]
  
@@ -36,3 +36,6 @@ let newoffers=offers.map(function updateoffer(offer){
 });
 console.log(newoffers);
 //It’s important to note that the map() method does not change the original array, it creates a new array of all elements that have been transformed by the callback function.
+
+//Question:- can we perform filter in map method.
+// Answer:- No, the map method in JavaScript is specifically designed for transforming elements of an array into new values. It does not provide built-in filtering functionality.
