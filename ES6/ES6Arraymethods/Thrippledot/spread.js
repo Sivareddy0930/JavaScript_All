@@ -8,6 +8,13 @@
 
 //JavaScript spread operator and array manipulation:-
 //Spread can used to Copying an array.
-//Spread can used to Constructing array literal.
+//Spread can used to Constructing array literal (or Extands AnotherArray).
 //Spread can used to Concatenating arrays(mearge array).
+
+//----------------------------------------------------------------------
+//Spread can used to Constructing array literal (or Extands AnotherArray).
+//The spread operator allows you to insert another array into the initialized array when you construct an array using the literal form.
+let arr=[1,2,3,4];
+let arr2=[...arr,5,6,7,8];
+console.log(arr2);
 
