@@ -1,5 +1,5 @@
 //passingfunctionToanotherfunction
-// like parameters we can pass anotherfunction to a function.
+// like parameters we can pass function to  anotherfunction.
 function Anotherfunction(){
    //console.log("Anotherfunction");
     return "Anotherfunction";
