@@ -12,7 +12,7 @@
 function add(a,b){ // a,b are parameters.
     return a+b;
 }
-console.log(add(2,2)); // 2,2 are arugments.
+console.log(add(2,2)); //2,2 are arugments that which assign to parameters a,b.
 
 /*The return statement is used to return a particular value from the function to the function caller. 
 The function will stop executing when the return statement is called.
