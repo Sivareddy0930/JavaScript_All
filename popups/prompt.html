@@ -25,8 +25,14 @@ If the user clicks "OK" the box returns the input value. If the user clicks "Can
   <html lang="en">
   <head>
     <script>
-      let a= prompt("Message");// it will return value but in console level it not shows because we not ask to print at console level.
+      let a= prompt("Message");// it will return value.
+      if(a==null ||a==""){
+      console.log("please enter name:-");
+      }   
+      else{
       console.log(a);
+
+      }
     </script>
   </head>
   <body>
