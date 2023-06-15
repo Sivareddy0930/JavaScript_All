@@ -3,3 +3,4 @@ function usernamefromemail(email){
     console.log(username);
 }
 usernamefromemail("sivareddy0930@gmail.com")
+//Example
