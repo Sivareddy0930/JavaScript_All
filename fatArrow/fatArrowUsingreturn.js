@@ -1,5 +1,5 @@
 //difference between normal function and fat-Array function .(With single line syntax).
-//you can call a function  N no.of times.
+//you can call a function  N  no.of times.
 
 
 function add(a,b){

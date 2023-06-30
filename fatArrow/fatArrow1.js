@@ -15,7 +15,8 @@ add(20,20)*/
 }
 add(20,20)*/
 
-//if you have one arugament you can write a function in one line  using fat-Array function.
+//if you have one parameter you can write a function in one line  using fat-Array function.
+// if you have only one parameter you don't need to use paranthisis also.
 
 let add=name=>"my name is "+name
 console.log(add("siva"));
