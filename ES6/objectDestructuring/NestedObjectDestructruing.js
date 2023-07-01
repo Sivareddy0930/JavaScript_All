@@ -11,7 +11,7 @@ let Emp={
 //object destructuring in nested object.
 
 // let{id,Name,address}=Emp;
-let{id,Name,location:{address,pincode}}=Emp;//here consider the location object as an propertie.
+let{id,Name,location:{address,pincode}}=Emp;//here consider the location object as an property.
 
 console.log(id);
 console.log(Name);

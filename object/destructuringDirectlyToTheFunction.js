@@ -6,6 +6,12 @@ let emp={
     location:"Hydrabad",
 }
 
+
+
+
+//Here we are object destructuring directly to  the function as an arugments .
+
+
 function aboutemp({name}){
     return name;
 
