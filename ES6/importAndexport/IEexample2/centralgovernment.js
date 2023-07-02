@@ -12,3 +12,6 @@ class central{
 
 //ES5 syntax
 module.exports=tax;
+
+// we know that above used ES5 syntax 
+// it is  gone work because node environment is  support for ES5.

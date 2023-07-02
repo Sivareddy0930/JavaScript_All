@@ -31,4 +31,5 @@ So in node only ES5 syntax is worked. */
 
             //import syntax for named:-
                                 //const {value1,value2}=require('./filename')           
+//---------------------------------------------------------------------------------------------------------------------------------------
 

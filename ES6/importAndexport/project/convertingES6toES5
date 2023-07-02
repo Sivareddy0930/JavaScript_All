@@ -1,0 +1,15 @@
+
+// if we want to work with ES6 without getting Errors.we have to convert it to ES5.
+//we can do it with  two ways 
+        // Bable Transpiler.
+        //type:module.
+
+
+
+// Here we are using type:module concept.
+    // Follow the steps:-
+            // first we have open command prompt or Node Terminal.
+            //And type   npm init -y
+            // we got some json text .copy all the text from terminal or command prompt and create a new file with name  package.json  And past all the coiped thing in new file.
+            //And add type:module After main.
+
