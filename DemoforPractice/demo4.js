@@ -1,17 +1,9 @@
-class Person {
-    constructor(name) {
-        this.setName(name);
-    }
-    getName() {
-        return this.name;
-    }
-    setName(newName) {
-        this.name = newName;
-    }
+function factory(aClass) {
+    return new aClass();
 }
 
-let person =new Person('Jane Doe');
-console.log(person); // Jane Doe
+let greeting = factory(class {
+    sayHi() { console.log('Hi'); }
+});
 
-person.setName('Jane Smith');
-console.log(person.getName()); // Jane Smith
+greeting.sayHi(); // 'Hi'
