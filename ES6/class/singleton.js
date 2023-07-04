@@ -1,5 +1,4 @@
-//singleton is a design pattern that limits the instantiation of the class to single instance.(Simply there is only one object throughtout the system or class). 
-
+//singleton is a design pattern that tells us that we can create only one instance of class.And that instance can be accessed gloablly.
 //Class expressions can be used to create a singleton by calling the class constructor immediately.
 
 //To do that, you use the new operator with a class expression and include the parentheses at the end of class declaration .
