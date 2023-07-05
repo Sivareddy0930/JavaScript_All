@@ -4,6 +4,7 @@ let employees = [{ id: 101, name: "Rahul", sal: 45000 },
 function setEmployee(emple,callback){
     setTimeout(()=>{
         employees.push(emple);
+        //Asyncronous programming.
         callback();
 
     },4000)
