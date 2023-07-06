@@ -37,6 +37,11 @@ setData({ id: 103, name: "Modi", sal: 75000 })
 .catch((err) => {
     console.log(err)
       })
+
+
+      // Here we have one callback function in .then() what if we have multiple .then() functions.
+      //so here we getting callback chaining.
+      //to avoid that we use async and await.
             
 
 
