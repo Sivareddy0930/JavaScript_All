@@ -1,0 +1,18 @@
+DOM:-Document Object Model
+
+defination:-when webpage is loaded browser create a Document Object Model.
+
+document is the root element to represent the html Document.
+
+*document object has properties and methods. By using this we can
+                                                            we can select html elements
+                                                            we can modify html elements
+                                                            we can remove/delete html elements
+                                                            we can create html elements
+                                                            we can add/remove/change Styles to html elements
+
+
+
+* it like a tree structure.
+
+* With DOM, Javascript get all powers it needed to build dynamic HTMLpage.

@@ -1,0 +1,34 @@
+ <!-- Unlike the id attribute, multiple HTML elements can share the same value of the name attribute like this:
+ <input type="radio" name="language" value="JavaScript">
+ <input type="radio" name="language" value="TypeScript">
+
+ To get all elements with a specified name, you use the getElementsByName() method of the document object:
+
+ let elements = document.getElementsByName("language");
+ The getElementsByName() gets all the elements with same name  and returns a live NodeList(array like object or collection) of elements.
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    <form>
+        <label for="">Name</label>
+        <input type="text" name="abc" id="Siva">
+        <label for="">FirstName</label>
+        <input type="text" name="abc"  id="Sivareddy">
+        <label for="">MiddleName</label>
+        <input type="text" name="abcdefg"  id="Sivareddytumu"><!-- name property is different-->
+        <label for="">LastName</label>
+        <input type="text" name="abc"  id="venkataSivareddytumu">
+    </form>
+    <script>
+        let a=document.getElementsByName("abc")
+        console.log(a);
+       //to prove that this document.getElementName("abc") holds whole tag. i am storeing the result in varaible a and return in console.
+
+//  The getElementsByName() gets all the elements with same name  and returns a live NodeList(array like object or collection) of elements.
+
+    </script>
+</body>
+</html>

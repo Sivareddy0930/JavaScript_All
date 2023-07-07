@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head></head>
+<body>
+    <div>
+        <p id="abc">Division 1 paragraph 1</p>
+        <p>Division 1 paragraph 2</p>
+    </div>
+    <div>
+        <p id="abc">Division 1 paragraph 1</p>
+        <p>Division 1 paragraph 2</p>
+    </div>
+<script>
+    //getElementById method is used to select HTML element. it select whole element with tag names also.
+    //based on id it select particular element.
+    //we know in a page there must be one id with same property.
+    //if we have id at multiple locations that has same property.then  if we try to getElementById it will give first occurence of id.
+    let a=document.getElementById("abc")
+    console.log(a); 
+    //to prove that this document.getElementById("abc") holds whole tag. i am storeing the result in varaible a and return in console.
+</script>
+</body>
+</html>
