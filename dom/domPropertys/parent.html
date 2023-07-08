@@ -1,0 +1,20 @@
+<!-- The document and DocumentFragment do not have a parent node.so if we try to return it will give null.
+if you try to access the node that doesn't exist it will give null. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+       <p id="abc">Hi</p>
+    </div>
+    <script>
+        let a=document.getElementById("abc")
+        let b=a.parentNode //div is parentNode
+        console.log(b);
+    </script>
+</body>
+</html>

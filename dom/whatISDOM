@@ -16,3 +16,12 @@ document is the root element to represent the html Document.
 * it like a tree structure.
 
 * With DOM, Javascript get all powers it needed to build dynamic HTMLpage.
+
+
+Node vs element
+
+Node:-A node is a fundamental unit of the DOM tree structure.
+    It represents any individual part of the document, such as elements, text, comments, or attributes. 
+
+Element:-An element is a specific type of node in the DOM.
+It represents an HTML or XML element, such as <div>, <p>, <span>, or any other tag.

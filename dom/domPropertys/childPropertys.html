@@ -1,0 +1,82 @@
+<!-- The firstChild and lastChild return the first and last child of a node, which can be any node type including  text node, comment node, and element node.
+
+The firstElementChild and lastElementChild return the first and last child Element node.
+
+The childNodes returns the NodeList of all child nodes  like (text node, comment node, and element node) of any node type.
+
+The children return all child Element nodes of a specified node. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="abc">
+        <p>Paragraph</p>
+        <h1>one</h1>
+        <h2>Two</h2>
+        <h4>four</h4>
+    </div>
+
+    <!-- <script>
+        let a=document.getElementById('abc')
+        let result=a.firstChild
+        console.log(result);//output:-#text
+    // firstChild focus on only all nodes like textnodes,spaces ,comments  also along with elements nodes.
+
+    </script> -->
+
+
+<!-- <script>
+    let a=document.getElementById('abc')
+    let result=a.firstElementChild
+    console.log(result);//output:-<p>Paragraph</p>
+    // firstElementChild focus on only elements
+</script> -->
+
+
+<!-- <script>
+    let a=document.getElementById('abc')
+    let result=a.lastChild
+    console.log(result);//output:-#text
+    // lastChild focus on only all nodes like textnodes,spaces ,comments  also along with elements nodes.
+</script> -->
+
+
+
+<!-- <script>
+    let a=document.getElementById('abc')
+    let result=a.lastElementChild
+    console.log(result);//output:-<h4>four</h4>
+    // lastElementChild focus on only elements
+</script> -->
+
+
+<!-- 
+
+<script>
+    let a=document.getElementById('abc')
+    let result=a.childNodes
+    console.log(result);//output:-NodeList(9) [text, p, text, h1, text, h2, text, h4, text]
+    // it reurn all childnodes like textnodes,spaces ,comments  also along with elements nodes.
+</script>  -->
+
+
+
+
+<script>
+    let a=document.getElementById('abc')
+    let result=a.children
+    console.log(result);//output:-HTMLCollection(4) [p, h1, h2, h4]
+    // it reurn all child elements nodes only.
+</script> 
+
+
+
+
+
+</body>
+</html>
