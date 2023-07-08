@@ -1,0 +1,30 @@
+<!-- createElement method is used to create new html elements.
+appendChild method is used to add the elemets to existing parent node in last position. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <div id="abc">
+        <p> Div 1  and para 1</p>
+        <p> Div 1  and para 2</p>
+        <!-- here i want to add new paragraph and i want to add it here at last. -->
+    </div>
+
+    <script>
+        let NewpTag=document.createElement("p")
+        NewpTag.innerText="Div 1 and para 3"
+        // i have created a p tag and add some text to it.
+        //now i want to add it inside div tag .
+        let divTag=document.getElementById("abc")
+        // console.log(divTag);
+        // here we  added new p tag to existing parent tag
+        divTag.appendChild(NewpTag)
+
+    
+    </script>
+    
+</body>
+</html>

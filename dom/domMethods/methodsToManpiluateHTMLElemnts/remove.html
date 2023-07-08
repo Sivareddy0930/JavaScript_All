@@ -1,0 +1,35 @@
+<!-- remove method is used to remove the element.
+removeChild method is used to remove the element baed on parent. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<!-- <body>
+    <div>
+        <p>div1 para 1</p>
+        <p id="abc">div1 para 2</p>
+    </div>
+    
+    <script>
+        let a=document.getElementById("abc")
+        a.remove();
+    </script>
+
+</body> -->
+
+
+<body>
+    <div id="parentid">
+        <p>div1 para 1</p>
+        <p id="abc">div1 para 2</p>
+    </div>
+    
+    <script>
+        let a=document.getElementById("parentid")
+        let child=document.getElementById("abc")
+        a.removeChild(child);
+    </script>
+
+</body>
+</html>

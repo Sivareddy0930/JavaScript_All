@@ -1,0 +1,24 @@
+<!-- replaceWith method is used to replace a element with another element. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+
+
+
+<body>
+    <div>
+        <p>div1 para 1</p>
+        <p id="abc">div1 para 2</p>
+    </div>
+    
+    <script>
+        let s1=document.createElement('h1')
+        s1.innerText="This replaced p tag"
+        let a=document.getElementById("abc")
+        a.replaceWith(s1)
+    </script>
+
+</body>
+</html>

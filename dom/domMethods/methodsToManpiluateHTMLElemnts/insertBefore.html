@@ -1,0 +1,43 @@
+<!-- insert before method is used to add the html element. before the specified element. -->
+<!-- parentNode.insertBefore(newNode, existingNode); -->
+<!-- 
+newNode represent =>new element that we want to add 
+existingNode represent=> Manam  new element nee add chaisena tharuvatha element ne represent chastundi. -->
+
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="abc">
+        <p> Div 1  and para 1</p>
+        <p> Div 1  and para 2</p>
+        <h1 id="efg" >Hi</h1>
+    </div>
+    <!-- here we are trying to add new h2 tag before h1 -->
+    <script>
+        let newNode=document.createElement('h2')
+
+        newNode.innerText="Hello"
+        //here we created a new tag with content Hello.
+        //now addbefore the h1 tag.
+
+        let pNode=document.getElementById('abc')
+
+        let existingNode=document.getElementById("efg")
+             //another way to select an element
+             
+        // let existingNode=pNode.lastElementChild
+       
+        
+        
+
+
+        pNode.insertBefore(newNode,existingNode)
+
+    </script>
+</body>
+</html>

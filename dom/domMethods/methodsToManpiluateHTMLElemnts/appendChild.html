@@ -1,0 +1,33 @@
+<!-- appendChild is used to add element at end.
+appendChild is also used to move existing element to another position. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="abc">
+        <p> Div 1  and para 1</p>
+        <p> Div 1  and para 2</p>
+        <h1>Move From one postion to another</h1>
+    </div>
+    <!-- here we are try to move h1 from div1 to div2 -->
+    <div id="efg">
+        <p> Div 2  and para 1</p>
+        <p> Div 2  and para 2</p>
+    </div>
+    <script>
+        let s1=document.querySelector("#abc")
+        let moveElement=s1.lastElementChild
+        //console.log(moveElement);//here we selected the element that we want to move.
+
+        let s2=document.getElementById("efg")
+
+        s2.appendChild(moveElement)
+
+
+    </script>
+</body>
+</html>
