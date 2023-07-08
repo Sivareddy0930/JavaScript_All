@@ -1,0 +1,38 @@
+<!-- The nextElementSibling returns the next sibling of an element or null if the element is the last one in the list.
+The previousElementSibling returns the previous sibling of an element or null if the element is the first one in the list. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li id="abc">four</li>
+        <li>five</li>
+        <li>six</li>
+        <li>seven</li>
+    </ul>
+<script>
+    let a=document.getElementById('abc')
+    let b=a.nextElementSibling
+    console.log(b);//five
+
+    let c=a.previousElementSibling
+    console.log(c );//three
+</script>
+<!-- <script> 
+    let a=document.getElementById('abc')
+    let b=a.nextSibling
+    console.log(b);//#text
+
+    let c=a.previousSibling
+    console.log(c );//#text
+</script> -->
+
+</body>
+</html>

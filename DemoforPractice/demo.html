@@ -5,15 +5,13 @@
     <title>JS CreateElement Demo</title>
 </head>
 <body>
-    <div >
-        JavaScript textContent Demo!
-        <p id="note">hiiii</p>
-        <p>hello</p>
-        <span style="display:none">Hidden Text!</span>
-        <!-- my comment -->
-    </div>    
+    <input type="password" id="password" style="color:red;with:100%">   
     
-    <script>let note = document.getElementById('note');
-        note.textContent = 'This is a note';</script>
+    <script>let input = document.querySelector('#password');
+
+        let styleAttr = input.getAttribute('style');
+        console.log(styleAttr);
+        
+    </script>
 </body>
 </html>

@@ -1,0 +1,50 @@
+ REFERENCE LINK:-https://www.javascripttutorial.net/javascript-dom/html-attributes-dom-object-properties/
+
+
+Relationships Between HTML Attributes & DOM Object’s Properties ?
+
+
+Both are same .HTML attributes are converted to object properties in DOM.
+   EXample:-<input type="text" id="username">
+
+                here input tag has two attributes:  The type attribute with the value text.
+                                                    The id attribute with the value username.
+
+                that will converted to object(Here object means document) properties  in DOM :
+
+                                                    * both are same but in DOM pointofview attributes are become object properties.
+
+
+
+the web browser will automatically convert attributes of HTML elements in to properties of DOM objects..
+
+** Attribute AND property are Syncronized with each other .if we change value of object.id in DOM it will effect to HTML attrubite id also.(Vice-versa)
+
+**The value of an attribute is always a string in HTML. However, when the attribute is converted to the property of a DOM object, the property value can be a string, a boolean, an object, etc.
+
+                Example 1:-<input type="checkbox" id="chkAccept" checked> Accept
+
+                          let checkbox = document.querySelector('#chkAccept');
+                          console.log(checkbox.checked); // true
+
+                          Here, checkbox element has the checked attribute. When the checked attribute is converted to the property, it is a boolean value.
+
+                Example 2:-<input type="password" id="password" style="color:red;with:100%">
+
+
+                            let input = document.querySelector('#password');
+
+                            let styleAttr = input.getAttribute('style');
+                            console.log(styleAttr);//color: red; --darkreader-inline-color: #ff1919;
+
+                            Here, The style attribute is a String  while it converted to the style property  it is an object.
+
+
+
+
+To access  attributes, you use the following methods:
+
+element.getAttribute(name) – get the attribute value
+element.setAttribute(name, value) – set the value for the attribute
+element.hasAttribute(name) – check for the existence of an attribute
+element.removeAttribute(name) – remove the attribute
