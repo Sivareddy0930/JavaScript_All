@@ -2,16 +2,20 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>JS CreateElement Demo</title>
+    <title>JS setAttribute() Demo</title>
 </head>
 <body>
-    <input type="password" id="password" style="color:red;with:100%">   
-    
-    <script>let input = document.querySelector('#password');
+    <button id="btnSend">Send</button>
 
-        let styleAttr = input.getAttribute('style');
-        console.log(styleAttr);
-        
+    <script>
+        let btnSend = document.querySelector('#btnSend');
+        if (btnSend) {
+            btnSend.setAttribute('name', 'send');
+            btnSend.setAttribute('disabled', '');
+        }
+
+        let c=btnSend.getAttributeNames()
+        console.log(c);
     </script>
 </body>
 </html>

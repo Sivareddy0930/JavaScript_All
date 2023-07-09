@@ -1,0 +1,26 @@
+<!-- To set a value of an attribute on a specified element, you use the setAttribute() method:
+
+element.setAttribute(name, value); -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="abc">Click</button> 
+    <script>
+        let a=document.getElementById('abc')
+
+        let b=a.setAttribute('name','button')
+        let c=a.setAttribute('disabled','')
+
+
+        console.log(a);
+        //<button id="abc" name="button" disabled="">Click</button>
+
+    </script>
+</body>
+</html>

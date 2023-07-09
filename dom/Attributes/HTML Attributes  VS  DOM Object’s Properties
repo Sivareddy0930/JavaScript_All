@@ -48,3 +48,6 @@ element.getAttribute(name) – get the attribute value
 element.setAttribute(name, value) – set the value for the attribute
 element.hasAttribute(name) – check for the existence of an attribute
 element.removeAttribute(name) – remove the attribute
+
+
+# Use the element.attributes property to access standard and custom attributes of an element.
