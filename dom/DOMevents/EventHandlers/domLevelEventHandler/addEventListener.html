@@ -1,0 +1,23 @@
+ <!-- instead of assigning the event directly to a property on the element, we’ll use the addEventListener() method to listen for the event.
+The addEventListener() method accepts three arguments: an event name, an event handler function,Another one is optional -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="abc">ClickButton</button>
+    <script>
+        let a=document.getElementById('abc')
+        a.addEventListener('click',myFunction)
+
+        function myFunction(){
+            a.style.backgroundColor='green'
+        }
+    </script>
+</body>
+</html>

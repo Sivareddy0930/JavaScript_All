@@ -1,0 +1,57 @@
+<!-- Html event handler
+
+ if any event occurs to handle that event. eventHandler is required.
+ before that eventHandling we need to listen that event is occured or not.for that we need a eventListener.
+ -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    <button id="abc" onclick="alert('Hello')">PressButton</button>
+    <!-- here click is an event.
+    And when we combine on with click = onclick that is an eventListener.
+    alert('Hello') is an eventHandler.Here you can use function also insted of alert() . for simple understand i used alert-->
+
+
+ <!-- "onevent" properties (named by prefixing "on" to the name of the event). These properties are called to run associated handler code when the event is fired. -->
+
+ </body>
+
+
+
+
+
+ <!-- <body>
+    <script>
+        function myfunction(){
+            let changeColor=document.getElementById('abc')
+            changeColor.style.backgroundColor="red"
+        }
+    </script>
+    <button id="abc" onclick="myfunction()">PressButton</button>
+ </body> -->
+
+
+
+
+
+
+<!-- 
+ using HTMLeventHandler(InlineEventhandler) is not a good practice because  
+        * the event handler code is mixed with the HTML code, which will make the code more difficult to maintain and extend.
+
+
+        *  it is a timing issue. If the element is loaded fully before the JavaScript code, users can start interacting with the element on the webpage which will cause an error.
+
+            For example, suppose that the following showAlert() function is defined in an external JavaScript file:
+        
+            <input type="button" value="Save" onclick="showAlert()">
+
+            And when the page is loaded fully and the JavaScript has not been loaded, the showAlert() function is undefined. If users click the button at this moment, an error will occur.  -->
+
+
+ </html>

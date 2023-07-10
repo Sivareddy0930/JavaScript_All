@@ -1,0 +1,24 @@
+<!-- Event handler properties work very similarly to inline handlers,
+ except we set the property of an element in JavaScript, instead of on the attribute in our HTML. -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    <p id="pid">HI Buddy</p>
+    <button id="abc">ClickButton</button>
+
+    <script>
+            let a=document.getElementById('abc')
+            a.onclick=myFunction
+            function myFunction(){
+                let b=document.getElementById('pid')
+                b.innerText="Hello Buddy"
+            }
+    </script>
+ </body>
+ </html>

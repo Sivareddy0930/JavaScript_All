@@ -1,0 +1,18 @@
+EVENT:- An event is an action that happens in the browser, such as a button being clicked, a key being pressed etc.....
+
+
+* When an event occurs, you can create an event handler which is a piece of code that will execute to respond to that event.
+
+
+  if any event occurs to handle that event. eventHandler is required.
+  before that eventHandling we need to listen that event is occured or not.for that we need a eventListener.
+-------------------------------------------------------------------
+
+Events can be assigned to elements via inline event handlers, event handler properties & event listeners.
+
+  There are three ways to assign event handlers.
+
+  1) HTML event Handler(inline event handlers)
+  2) DOM Level event handlers
+            =>by using event handler properties.
+            =>by using eventListeners.
