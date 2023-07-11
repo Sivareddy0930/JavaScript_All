@@ -3,14 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Document</title>
+    <style>
+        .displayblock{
+            display: block;
+        }
+    </style>
+
 </head>
 <body>
-    <form action="">
+    <form action=""  id="form1">
         <label for="">Name</label>
-        <input type="text">
+        <input type="text" id="name" class="displayblock">
         <label for="">Email</label>
-        <input type="email">
+        <input type="email" id="mail" class="displayblock">
+        <input type="submit" id="submitbutton" style="margin-top:1%;">
     </form>
+
+
+    <script>
+        let a=document.getElementById('submitbutton')
+        a.addEventListener('click',(event)=>{
+            console.log(event);
+            event.preventDefault()
+            
+        })
+    </script>
 </body>
 </html>
