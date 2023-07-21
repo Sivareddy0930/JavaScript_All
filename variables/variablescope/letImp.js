@@ -1,4 +1,4 @@
-//In let concept Redeclaring let inside block will also effect outside block
+//In let concept Redeclaring let inside block will not effect outside block
 let i=10;
 function f(){
   let i=20;
