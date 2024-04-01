@@ -12,11 +12,13 @@ let obj={
 
     company:function (){
         console.log("greetlabs");
-    }
+    },
+   
 
 };
 console.log(obj.id);
 console.log(obj["id"]);//Another way to aquare object.
+console.log(obj['salary'])
 console.log(obj.location.pincode);
 console.log(obj.languagesknow[0]);
 obj.company();

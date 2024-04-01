@@ -9,4 +9,7 @@ let obj={
 for(object in obj){
     console.log(obj[object]);
 }
+for (const object in obj) {
+    console.log(obj[object]);
+}
 

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <div id="one">
+
+      Normal Text Content
+
+    <h1>InnerHtmL</h1>
+    <p id="Test">hi</p>
+    <p>hello</p>
+    <p>how are you</p>
+    <a style="display: none">Pricing</a>
+   </div>
+ 
+ <div>
+    <input type="button" onclick="m1()" value="click">
+ </div>
+    <script>
+        let m1=()=>{
+                // When you use the textContent property, it reads the text content of the element.includeing hidden content of element.
+            
+        let elem=document.getElementById('one');
+       console.log(elem.textContent)
+
+       let elem1=document.getElementById('Test');
+       console.log(elem1.textContent)
+       
+        
+        };
+    </script>
+</body>
+</html>

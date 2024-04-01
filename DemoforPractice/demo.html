@@ -1,21 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>JS setAttribute() Demo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./demo4.js"></script>
 </head>
 <body>
-    <button id="btnSend">Send</button>
-
-    <script>
-        let btnSend = document.querySelector('#btnSend');
-        if (btnSend) {
-            btnSend.setAttribute('name', 'send');
-            btnSend.setAttribute('disabled', '');
-        }
-
-        let c=btnSend.getAttributeNames()
-        console.log(c);
-    </script>
+    <div>
+        <h1 style="color: aqua;" id="uname" onmouseover="changeCase()">Hello</h1>
+    </div>
 </body>
-</html>
+</html> 

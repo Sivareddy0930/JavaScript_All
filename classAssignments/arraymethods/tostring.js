@@ -1,9 +1,9 @@
 // toString => represent the String format of an array
 
 
-/*let arr=["siva",100,4.4,true]
-let s=arr.toString();
-console.log(s);//siva,100,4,4,true */
+let arr1=["siva",100,4.4,true]
+let s=arr1.toString();
+console.log(s);//siva,100,4,4,true 
 // defining a nested array
 let nestedArray = [1, 2, 4, ["Apple", 5]];
 

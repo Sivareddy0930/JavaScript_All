@@ -1,4 +1,4 @@
-//object.create method is used to create new object by useing existing object.
+//object.create method is used to create new object by using existing object.
 //new object inherate all the properties of existing object.
 
 let vehicle={

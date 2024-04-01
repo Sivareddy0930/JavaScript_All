@@ -11,3 +11,4 @@ let {id,sal:salary=49000,lastname="hi"}=emp;//Here lastname properties is not de
 console.log(id);
 console.log(salary);
 console.log(lastname);//hi
+console.log(emp)

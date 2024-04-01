@@ -10,6 +10,6 @@ let emp={
 }
 console.log(Object.keys(emp));//it return array with keys.
 
-//console.log(Object.keys(emp).length);// Size of an array is 5
+console.log(Object.keys(emp).length);// Size of an array is 5
 
 console.log(Object.values(emp));//it return array with values.

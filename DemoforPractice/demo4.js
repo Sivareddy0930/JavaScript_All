@@ -1,10 +1,10 @@
-let f=(aclass)=>{
-    return new aclass();
+let c=40;
+function a(){
+    let a=10;
+    if(true){
+        var b=100;
+        console.log(a)
+    }
+    console.log(b)
 }
-let a=f(class{
- b=100;
-met1(){
-    console.log(`Value of the class is ${this.b}`);
-}});
-
-a.met1();
+a();

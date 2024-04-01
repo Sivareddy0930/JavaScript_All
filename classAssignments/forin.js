@@ -5,7 +5,7 @@ let car={
 }
 /* for(info in car){
      console.log(info);
- }*/
+ }
 //if we use for-in same like as arrays for-of loop.it will give keys instead of values.
 //generally we know that objects can read by using objectname.varablename(car.info)
 //--------------------------------------------------------------------------------
